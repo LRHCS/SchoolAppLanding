@@ -1,0 +1,11 @@
+.text {
+    @apply flex justify-center items-center text-3xl
+}
+
+.line {
+    @apply flex w-screen justify-around h-screen
+}
+
+.title {
+    @apply text-5xl flex justify-center
+}

@@ -1,0 +1,29 @@
+
+body {
+    cursor: none;
+}
+
+.custom-cursor {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 9999;
+    display: none;
+    pointer-events: none;
+    mix-blend-mode: difference;
+}
+
+
+*:hover {
+    cursor: none !important;
+}
+
+
+@media screen and (min-width: 900px) {
+    body:hover .custom-cursor {
+        display: block;
+    }
+}
+
