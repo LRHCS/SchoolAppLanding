@@ -1,11 +1,12 @@
+
 .text {
-    @apply flex justify-center items-center text-3xl
+    @apply flex justify-center items-center xl:text-3xl w-1/2 text-lg
 }
 
-.line {
-    @apply flex w-screen justify-around h-screen
+.line1, .line2, .line3, .line4, .line5, .line6 {
+    @apply flex justify-around w-screen  lg:h-screen h-96 items-center  text-white z-30 box-border
 }
 
-.title {
-    @apply text-5xl flex justify-center
+.img {
+    @apply rounded-2xl lg:w-fit w-3/4
 }

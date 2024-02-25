@@ -25,9 +25,7 @@ export const Navbar = () => {
             <Link href="/register/school" className="">
               {/* eslint-disable-next-line react/no-unescaped-entities */}
               <HoverToGrow>
-                <div>
-                  Tell Me Your School
-                </div>
+                <div>School?</div>
               </HoverToGrow>
             </Link>
             <div>

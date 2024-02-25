@@ -5,7 +5,7 @@ import { Model } from "@/app/Components/Model/SchoolAppLogo";
 
 export const LogoScene = () => {
   return (
-    <div className="h-screen z-10 relative">
+    <div className="h-screen z-10 relative m-5">
       <Canvas
         camera={{
           fov: 30,
